@@ -33,6 +33,29 @@
 <body>
   <div id="app"></div>
   <h1 class="title" style="visibility: hidden;">Dash and Dots</h1>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyATzFL8sJwnoRh6GMKYJNQ2EbpjoSU8N1g",
+      authDomain: "dashandots-5a71c.firebaseapp.com",
+      projectId: "dashandots-5a71c",
+      storageBucket: "dashandots-5a71c.appspot.com",
+      messagingSenderId: "39917173903",
+      appId: "1:39917173903:web:7c0d54d976d00e60c184fa",
+      measurementId: "G-WK4BH19XRG"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 
 </html>
