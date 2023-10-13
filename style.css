@@ -242,7 +242,7 @@ body a:hover {
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
     background-color: #221c5a;
-    background-image: url(images/background_img_01b.jpg);
+    background-image: url(images/background_img_01b.png);
     background-repeat: repeat;
     background-position: center top;
     background-size: cover;
@@ -760,7 +760,7 @@ a.video-popup-holder:hover img.popup-play {
     left: -11px;
     font-weight: bold;
     color: white;
-    font-size: 45px;
+    font-size: 1.2rem;
     line-height: 100%;
     transition: color .2s linear, left .2s linear;
 }
@@ -1092,6 +1092,7 @@ footer {
         float: left;
         position: relative;
         margin-bottom: 37px;
+        text-align: justify;
     }
 
     .one_half {
@@ -1234,6 +1235,7 @@ footer {
         float: none;
         margin-right: 0;
         margin-left: 0;
+        text-align: justify;
     }
 
     .single-portfolio .entry-content .one_half {
